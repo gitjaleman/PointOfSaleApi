@@ -8,7 +8,8 @@
     userpass varchar(12),
     usertype int(1),
     nombre varchar(30),
-    documento varchar(20)
+    documento varchar(20),
+    clave varchar(60)
   )";
   $con->query($sql);
 
